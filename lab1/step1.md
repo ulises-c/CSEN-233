@@ -1,14 +1,14 @@
 Step 1: Run each of the following basic networking commands in Linux and write your observations:
 
-a. netstat: displays the contents of network interfaces; with the – a option, the command displays the state of all active sockets (more to come on sockets as endpoints of communication). With the – r option, the routing table is displayed. Please type man netstat to learn about all options.
-b. ifconfig: configures network interface parameters. With the – a option, the state of all interfaces is displayed. Other options are also used to assign a new IP address to an interface, assign a new network mask for an interface, disable an interface, and more. Please type man ifconfig to learn about all options.
-c. hostname: displays and sets the hostname of the system. Please type man hostname to learn about all options.
-d. ping: sends ECHO_REQUEST datagram to a network host using ICMP protocol to elicit an ECHO_RESPONSE from the host or gateway. Please type man ping to learn about all options.
-e. traceroute: displays the route packets trace to a network host using IP protocol “time to live”. Please type man traceroute to learn about all options.
-f. telnet: remote connection to the server at a specific port (mainly 80 – http port)
-g. host/dig: performs DNS lookups.
-h. route: manipulates network routing tables.
-i. arp: displays and modifies the Internet-to-Ethernet address translation tables used by the address resolution protocol.
+1. netstat: displays the contents of network interfaces; with the – a option, the command displays the state of all active sockets (more to come on sockets as endpoints of communication). With the – r option, the routing table is displayed. Please type man netstat to learn about all options.
+2. ifconfig: configures network interface parameters. With the – a option, the state of all interfaces is displayed. Other options are also used to assign a new IP address to an interface, assign a new network mask for an interface, disable an interface, and more. Please type man ifconfig to learn about all options.
+3. hostname: displays and sets the hostname of the system. Please type man hostname to learn about all options.
+4. ping: sends ECHO_REQUEST datagram to a network host using ICMP protocol to elicit an ECHO_RESPONSE from the host or gateway. Please type man ping to learn about all options.
+5. traceroute: displays the route packets trace to a network host using IP protocol “time to live”. Please type man traceroute to learn about all options.
+6. telnet: remote connection to the server at a specific port (mainly 80 – http port)
+7. host/dig: performs DNS lookups.
+8. route: manipulates network routing tables.
+9. arp: displays and modifies the Internet-to-Ethernet address translation tables used by the address resolution protocol.
 
 For each command:
 
