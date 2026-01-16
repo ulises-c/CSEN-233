@@ -48,6 +48,9 @@ void copy_file_sys(const char *source, const char *dest)
     close(dst_fd);
 }
 
+// NOTE: Run main via `run_step3.sh` script for easy setup.
+// ./run_step3.sh
+
 int main(int argc, char *argv[])
 {
     if (argc != 2)
