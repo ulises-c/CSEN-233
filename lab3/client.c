@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 
     // 5. Receive file data
     // We save to a different name to avoid overwriting your source file if testing in the same folder
-    FILE *file = fopen("downloaded_file", "wb");
+    FILE *file = fopen("downloaded_file.txt", "wb");
     if (file == NULL)
     {
         perror("Failed to create file on disk");
@@ -86,12 +86,12 @@ int main(int argc, char *argv[])
 
     if (isError)
     {
-        remove("downloaded_file"); // Delete the empty/error file
+        remove("downloaded_file.txt"); // Delete the empty/error file
         printf("Download failed.\n");
     }
     else
     {
-        printf("File download completed. Saved as 'downloaded_file'\n");
+        printf("File download completed. Saved as 'downloaded_file.txt'\n");
     }
 
     return 0;
