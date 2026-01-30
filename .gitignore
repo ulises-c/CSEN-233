@@ -56,3 +56,13 @@ dkms.conf
 
 # MacOS files
 .DS_Store
+
+# Lab 1
+lab1/step3_files/step3
+lab1/step3_files/copy_sys_file
+lab1/step3_files/copy_lib_file
+
+# Lab 3
+lab3/client
+lab3/downloaded_file
+lab3/server
