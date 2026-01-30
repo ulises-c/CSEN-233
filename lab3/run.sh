@@ -1,4 +1,4 @@
-rm -f server.out client.out downloaded_file.txt
+rm -f server.out client.out downloaded_file downloaded_file.txt
 gcc server.c -o server.out -pthread
 gcc client.c -o client.out
 ./server.out 5001 &
